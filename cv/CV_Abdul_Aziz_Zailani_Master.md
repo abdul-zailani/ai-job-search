@@ -67,4 +67,4 @@ Senior SRE & DevOps Platform Engineer with 7+ years of experience engineering hi
 
 ## Languages
 - **Indonesian:** Native speaker
-- **English:** Professional working proficiency
+- **English:** Passive / Technical reading & documentation proficiency
