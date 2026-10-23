@@ -1,0 +1,145 @@
+{
+  "basics": {
+    "name": "Abdul Aziz Zailani",
+    "label": "Senior Site Reliability Engineer & DevOps Platform Lead",
+    "email": "aazizzailani@gmail.com",
+    "phone": "+62 857-1616-9351",
+    "url": "https://azizzailani.github.io",
+    "summary": "Senior SRE & DevOps Platform Engineer with 7+ years of experience engineering high-availability multi-cloud infrastructure (AWS, GCP, Alibaba Cloud) and enterprise container platforms (Kubernetes EKS/GKE). Proven track record executing zero-downtime production migrations, auto-scaling runner fleets (ARC), Jenkins-as-Code (JCasC) standardization, and reducing incident MTTR by 50% via distributed observability. Adept at eliminating operational toil through IaC and custom automation in Go and Python.",
+    "location": {
+      "city": "Jakarta",
+      "countryCode": "ID",
+      "region": "DKI Jakarta"
+    },
+    "profiles": [
+      {
+        "network": "LinkedIn",
+        "username": "aazizzailani",
+        "url": "https://linkedin.com/in/aazizzailani"
+      },
+      {
+        "network": "GitHub",
+        "username": "abdul-zailani",
+        "url": "https://github.com/abdul-zailani"
+      }
+    ]
+  },
+  "skills": [
+    {
+      "name": "Cloud & Infrastructure",
+      "keywords": ["AWS (EKS, EC2, S3, RDS, IAM, VPC, CloudWatch)", "GCP (GKE, Compute Engine)", "Alibaba Cloud", "DigitalOcean"]
+    },
+    {
+      "name": "Container & Orchestration",
+      "keywords": ["Docker", "Kubernetes (K8s)", "Helm Charts", "Kustomize", "Docker Swarm"]
+    },
+    {
+      "name": "CI/CD & GitOps",
+      "keywords": ["GitHub Actions Runner Controller (ARC)", "ArgoCD (GitOps)", "Jenkins (JCasC, Job DSL)", "GitLab CI", "Fastlane"]
+    },
+    {
+      "name": "Infrastructure as Code & Config",
+      "keywords": ["Terraform", "Ansible", "Packer", "Rundeck"]
+    },
+    {
+      "name": "Observability & Site Reliability",
+      "keywords": ["Prometheus", "Grafana", "Grafana Tempo (Distributed Tracing)", "Loki", "New Relic", "ELK Stack", "SLI/SLO/Error Budgets", "Incident Response / MTTR Optimization"]
+    },
+    {
+      "name": "Databases & Messaging",
+      "keywords": ["PostgreSQL", "MySQL", "MongoDB", "Redis", "Elasticsearch", "Kafka", "ClickHouse"]
+    },
+    {
+      "name": "Languages & Scripting",
+      "keywords": ["Go (Golang)", "Python", "Bash / Shell", "Groovy"]
+    },
+    {
+      "name": "Networking & Security",
+      "keywords": ["Kong API Gateway", "Pritunl VPN", "Cloud Security Hardening", "Reverse Proxies (Nginx, HAProxy)"]
+    }
+  ],
+  "work": [
+    {
+      "name": "PT. Lion Express (Lion Parcel)",
+      "position": "Site Reliability Engineer",
+      "url": "https://lionparcel.com",
+      "startDate": "2025-02-01",
+      "endDate": "Present",
+      "summary": "Managing reliability, high availability, and multi-cloud resilience (AWS & GCP) hosting core logistics and parcel delivery microservices across Indonesia.",
+      "highlights": [
+        "Zero-Downtime Cloud Migration: Led and executed end-to-end multi-cloud migration of 100% core logistics microservices and databases from GCP to AWS EKS with zero service interruption (0% downtime).",
+        "GitHub Actions Scale Sets (ARC): Architected and deployed GitHub Actions Runner Controller (ARC) on AWS EKS to manage auto-scaling self-hosted runner fleets, reducing pipeline build wait times by 40% and saving 30% runner infrastructure costs.",
+        "Jenkins-as-Code (JCasC): Standardized enterprise CI/CD pipelines utilizing JCasC and Job DSL configurations, improving deployment speed by 25% and embedding automated quality gates directly into runtime.",
+        "Distributed Observability: Deployed Grafana Tempo distributed tracing stack with AWS S3 backend across all environments, reducing Mean Time to Resolution (MTTR) by 50% for production incidents."
+      ]
+    },
+    {
+      "name": "PT. Komunitas Anak Bangsa",
+      "position": "Lead SRE / DevOps Engineer",
+      "startDate": "2022-11-01",
+      "endDate": "2025-02-28",
+      "summary": "Directed GitOps adoption, mobile deployment automation, and multi-cloud infrastructure strategy across engineering teams.",
+      "highlights": [
+        "ArgoCD GitOps Adoption: Led company-wide adoption of GitOps practices using ArgoCD, improving configuration sync velocity by 35% and eliminating configuration drift across dev, staging, and production environments.",
+        "Mobile CI/CD with Fastlane: Built automated CI/CD pipelines for iOS and Android mobile apps using Fastlane, cutting mobile release cycle times by 50% with integrated automated QA gates.",
+        "Secure Enterprise VPC: Architected secure VPC topologies and corporate networking on Alibaba Cloud with Pritunl VPN integrations, securing internal communications for 50+ engineers.",
+        "Telemetry & Observability Stack: Revamped cluster-wide monitoring using Prometheus, Grafana, and New Relic, boosting proactive incident detection rates by 40%."
+      ]
+    },
+    {
+      "name": "PT. Harmonix Teknologi Peentar",
+      "position": "DevOps Engineer",
+      "startDate": "2019-10-01",
+      "endDate": "2022-11-01",
+      "summary": "Orchestrated container workloads, continuous integration engines, and centralized observability for core software products.",
+      "highlights": [
+        "AWS Cloud Migration: Spearheaded successful migration of legacy on-premise infrastructure to AWS, improving application response times by 30% while maintaining 99.9% system availability during transition.",
+        "Container Orchestration: Containerized and orchestrated 30+ core microservices using Docker and Kubernetes, driving overall cluster resource efficiency up by 25%.",
+        "CI/CD Acceleration: Modernized Jenkins and GitLab CI pipelines, reducing software release cycles by 70% (accelerating deployments from weekly to daily cadence).",
+        "Centralized Observability: Deployed centralized logging and APM telemetry via ELK Stack and New Relic, improving production diagnostic speeds by 45%."
+      ]
+    },
+    {
+      "name": "PT. Harmonix Teknologi Peentar",
+      "position": "System Administrator",
+      "startDate": "2018-10-01",
+      "endDate": "2019-10-01",
+      "summary": "Administered corporate networks, Linux/Windows server fleets, security access controls, and technical SOP documentation.",
+      "highlights": [
+        "High Infrastructure Availability: Maintained 99.95% service uptime across corporate Linux and Windows server environments, managing firewalls, data backups, and IAM policies.",
+        "Proactive Alerting: Built early-warning server monitoring using Grafana and ELK Stack, reducing hardware incident resolution times by 30%.",
+        "Technical Documentation: Authored 50+ technical SOPs and infrastructure topology maps, reducing onboarding time for incoming engineers by 40%."
+      ]
+    },
+    {
+      "name": "buyback.ai",
+      "position": "Freelance DevOps Engineer",
+      "startDate": "2021-08-01",
+      "endDate": "2022-08-01",
+      "summary": "Designed, migrated, and deployed scalable database nodes and high-availability application environments on modern cloud infrastructure.",
+      "highlights": [
+        "Cloud-to-Cloud Database Migration: Seamlessly migrated application nodes and MySQL databases from DigitalOcean to AWS, boosting query performance by 35%.",
+        "Workload Elasticity: Deployed and auto-scaled container workloads on AWS Elastic Beanstalk, increasing service availability by 20% under peak traffic bursts."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "institution": "Indraprasta PGRI University (UNINDRA)",
+      "area": "Informatics (Computer Science)",
+      "studyType": "Bachelor of Informatics, FMIPA",
+      "startDate": "2010-01-01",
+      "endDate": "2015-01-01"
+    }
+  ],
+  "languages": [
+    {
+      "language": "Indonesian",
+      "fluency": "Native speaker"
+    },
+    {
+      "language": "English",
+      "fluency": "Professional working proficiency"
+    }
+  ]
+}
